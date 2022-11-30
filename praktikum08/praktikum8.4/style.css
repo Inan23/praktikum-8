@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+}
+
+/* BARIS 1 */
+header{
+    background-color:lightseagreen;
+    height: 70px;
+    margin: 10px 0;
+}
+/* BARIS 2 */
+.container{
+    display: flex;
+    height: 450px;
+    margin: 10px 0;
+}
+aside{
+    background-color: teal;
+    flex: 1;
+    margin-right: 10px;
+}
+article{
+    background-color:indianred;
+    flex: 3;
+    justify-content: space-around;
+}
+article .kotak .image{
+    background-color: rgb(175, 175, 175);
+    display: inline-flex;
+    width: 235px;
+    height: 225px;
+    margin: 0 25px;
+    right: 15px;
+    margin-top: 180px;
+}
+/* BARIS 3 */
+footer{
+    background-color: lightseagreen;
+    height: 70px;
+    margin: 10px 0;
+}
